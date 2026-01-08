@@ -1,7 +1,8 @@
 import os
-from interfaces import LoggerProtocol
-from logger_factory import get_logger
-from base_pipeline import GCPBasePipeline
+# Use absolute imports from the package name
+from gcp_modular_template.interfaces import LoggerProtocol
+from gcp_modular_template.logger_factory import get_logger
+from gcp_modular_template.base_pipeline import GCPBasePipeline
 
 class TestPipeline(GCPBasePipeline):
     """A minimal implementation of the base pipeline for testing."""
