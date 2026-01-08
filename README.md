@@ -1,2 +1,2 @@
-# gcp-modular-template
-gcp-modular-template
+# template-python-project
+Template Python Project
